@@ -1,18 +1,77 @@
 <!DOCTYPE html>
 <html lang="el">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Βιογραφικό Μανούσου Βαλυράκη — Jekyll</title>
-    <meta http-equiv="refresh" content="0; url=https://manousosvalirakis.github.io/cv-yaml-pdf/">
-    <link rel="canonical" href="https://manousosvalirakis.github.io/cv-yaml-pdf/">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Βιογραφικό Μανούσου Βαλυράκη</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 30px 15px;
+      background: #f1f3f5;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 25px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #2457a7;
+    }
+
+    .open-link {
+      display: block;
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    .cv-frame {
+      display: block;
+      width: 100%;
+      height: 1100px;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      background: white;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 12px;
+      }
+
+      .cv-frame {
+        height: 900px;
+      }
+    }
+  </style>
 </head>
+
 <body>
-    <p>
-        Το βιογραφικό μεταφέρθηκε.
-        <a href="https://manousosvalirakis.github.io/cv-yaml-pdf/">
-            Άνοιγμα βιογραφικού Μανούσου Βαλυράκη
-        </a>
-    </p>
+  <div class="container">
+
+    <h1>Βιογραφικό Μανούσου Βαλυράκη</h1>
+
+    <a class="open-link"
+       href="https://manousosvalirakis.github.io/cv-yaml-pdf/"
+       target="_blank"
+       rel="noopener">
+      Άνοιγμα βιογραφικού σε νέα καρτέλα
+    </a>
+
+    <iframe
+      class="cv-frame"
+      src="https://manousosvalirakis.github.io/cv-yaml-pdf/"
+      title="Βιογραφικό Μανούσου Βαλυράκη">
+    </iframe>
+
+  </div>
 </body>
 </html>
