@@ -1,62 +1,77 @@
 <!DOCTYPE html>
 <html lang="el">
 <head>
-    <meta charset="UTF-8">
-    <title>Curriculum vitae</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Βιογραφικό Μανούσου Βαλυράκη</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 30px 15px;
+      background: #f1f3f5;
+    }
+    
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 25px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #2457a7;
+    }
+
+    .open-link {
+      display: block;
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    .cv-frame {
+      display: block;
+      width: 100%;
+      height: 1100px;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      background: white;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 12px;
+      }
+
+      .cv-frame {
+        height: 900px;
+      }
+    }
+  </style>
 </head>
 
 <body>
+  <div class="container">
 
-    <h1> Curriculum vitae </h1>
-
-    <p> Manousos Valirakis / <i> Multimedia Specialist </i> / <i> Iráklion, Crete, Greece </i> </p>
-
-    <h2>Education</h2>
-
-    <p> <b> TEI of Crete : </b> Applied Informatics and Multimedia</p>
     
-    <p> <b> Hellenic Open Univercity : </b> Masters Degree - Graphic Arts / Multimedia</p>
+    <iframe
+      class="cv-frame"
+      src="https://manousosvalirakis.github.io/cv-yaml-pdf/"
+      title="Βιογραφικό Μανούσου Βαλυράκη">
+    </iframe>
 
-    <p> <b>School of Pedagogical and Technological Education : </b> Annual Pedagogical Training Program (EPPAIK) </p>
+    <a class="open-link"
+   href="https://manousosvalirakis.github.io/cv-yaml-pdf/"
+   target="_blank"
+   rel="noopener">
+  Άνοιγμα βιογραφικού σε νέα καρτέλα
+</a>
 
-    //
-    //
-    //
-    
-    <h2>Experience </h2>
-
-    <p> <u> <i> Jul 2007 - Feb 2010 </i> </u> </p>
-         <p> <b> Organization for the Development of Crete S.A. (O.A.K. SA) </b> - Information Technology Specialist </p>
-
-    <p> <u> <i> May 2011 - Nov 2013 </i> </u> </p>
-         <p> <b> Manousos Valirakis / Systems and Software Consulting Services </b> - Self-employed </p>
-
-    <p> <u> <i> Dec 2013 - May 2021 </i> </u> </p>
-          <p> <b> SKY Express </b> - Commercial and Sales Executive</p>
-
-    <p> <u> <i> Oct 2025 - Jul 2026 </i> </u> </p>
-          <p> <b> DYPA/Greek Public Employment Service </b> - Computer Science Teacher </p>
-
-    <p> <u> <i> Jun 2022 - Present </i> </u> </p>
-          <p> <b> Elizabeth Estate Agency </b> - Multimedia Specialist </p>
-
-    //
-    //
-    //
-
-    <h2> Licenses & certifications </h2>
-    
-     <p> <b> Centre for Research & Technology Hellas (CERTH) : </b> Adult Instructor Training </p>
-    
-    <p> <b> Hellenic Management Association Non Profit Organisation : </b> Quality management & assurance systems in business organization & administration </p>
-
-    <p> <b> Technological Educational Institute of Crete : </b> Digital Broadcasting – Real Time Communication and its Quality in IP Networks </p>
-    
-    <p> <b> University of the Aegean : </b> Special Treatment and Education - Ειδική Αγωγή και Εκπαίδευση </p>
-    
-
-
-
+  </div>
 </body>
 </html>

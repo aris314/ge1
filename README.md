@@ -10,10 +10,22 @@
 
 ## Μέλη ομάδας
 - ΠΑΠΑΧΡΗΣΤΟΥ ΙΩΑΝΝΑ
+   - ΑΜ 168397
+   - github link: https://github.com/Ioanna8888/my-cv
+     
 - ΜΑΡΓΑΡΗΣ ΒΑΙΟΣ
+   - AM 172765
+   - github link: https://github.com/aris314/my-cv
+  
 - ΠΕΤΡΑΚΗ ΒΑΣΙΛΙΚΗ
+   - AM 172766
+   - github link: https://github.com/vpetraki/my-cv-page
+  
 - ΒΑΛΥΡΑΚΗΣ ΜΑΝΟΥΣΟΣ
+   - AM 164332
+   - github link: https://github.com/ManousosValirakis/CV
 
+  
 ## Δομή αποθετηρίου
 - `docs/`: τεκμηρίωση και σημειώσεις
 - `src/`: κώδικας, εφόσον υπάρχει
